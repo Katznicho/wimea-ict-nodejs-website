@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: green;
+  color: #fff !important;
+  height: 110px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.navbar__logo {
+  object-fit: contain;
+  width: 100px;
+  height: 70px;
+  flex: 0.2;
+}
+.navbar__image {
+  object-fit: contain;
+  width: 100px;
+  height: 70px;
+  flex: 0.1;
+}
+.navbar__components {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.7;
+}

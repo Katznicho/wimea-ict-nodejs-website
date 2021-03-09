@@ -1,0 +1,11 @@
+.navbar__buttons {
+  cursor: pointer;
+  color: #fff !important;
+  border: none !important;
+  outline: none !important;
+}
+.navbar__buttons:hover {
+  border-bottom: 2px solid #fff !important;
+  margin: 5px !important;
+  padding: 5px !important;
+}
